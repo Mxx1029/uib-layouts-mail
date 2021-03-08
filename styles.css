@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #444;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.header-container * {
+    display: inline-block;
+}
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+#header-cont1 {
+    flex-basis: 70vw;
+    display: flex;
+}
+
+.title {
+    padding-right: 15%;
+    height: 5vh;
+    line-height: 5vh;
+}
+
+.search-bar {
+    flex-basis: 70%;
+    height: 7.5vh;
+    background-color: #eee;
+    display: flex;
+}
+
+.search-bar i {
+    color: #666;
+    padding: 0 1%;
+    line-height: 7.5vh;
+    flex-basis: 5%;
+}
+
+.search-bar input {
+    border: none;
+    background-color: #eee;   
+    font-size: 1rem; 
+    line-height: 7.5vh;
+    width: 45vw;
+}
+
+#header-cont2  {
+    flex-basis: 20vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-cont2 p {
+    height: 5vh;
+    line-height: 5vh;
+    padding-right: 5%;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #eee;
+    background-color: #008080;
+    text-align: center;
+    line-height: 30px;
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    padding: 5% 2% 0 0;
+}
+
+.write-mail {
+    box-shadow: 1px 1px 3px #444;
+    border-radius: 20px;
+    text-decoration: none;
+    color: inherit;
+    margin-left: 5%;
+    padding: 5% 10%;
+}
+
+nav > ul > li {
+    list-style-type: none;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-nav {
+    margin-top: 5%;
+}
+
+.main-nav li {
+    padding: 5% 0 5% 8%;
+    
+}
+
+.main-nav li:first-child {
+    color: #ff0000;
+    background-color: #f8dbdf;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-nav i {
+    padding-right: 5%;
+}
+
+.mail-container {
+    flex-basis: 80%;
+    padding: 5% 2% 2% 0;
+}
+
+.redo,
+.tabs {
+    border-bottom: 1px solid #ddd;
+    padding: 2.5% 0;
+}
+
+.tabs nav > ul > li {
+    display: inline;
+    padding-right: 10%;
+}
+
+.tabs nav ul li:last-child{
+    border-bottom: 4px solid #01af01;
+    padding-bottom: 2.25%;
+    color: #01af01;
+}
+
+.mails {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-row {
+    border-bottom: 1px solid #ddd;
+    padding: 1.5% 2% 1.5% 0;
+}
+
+.sender-box *, .content-box * {
+    display: inline;
+    padding-right: 2%;
+    text-align: left;
+}
+
+.sender-box {
+    display: inline;
+    width: 100%;
+}
+
+.content-box {
+    display: inline;
+    width: 100%;
+}
+
+.content-box p:last-child {
+    padding-right: 0;
+    padding-left: 2%;
+}
+
+.sender {
+    font-weight: 700;
+    display: inline-block;
+    width: 15%;
+}
+
+.teaser {
+    display: inline-block;
+    width: 65%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.date {
+    float: right;
+}
